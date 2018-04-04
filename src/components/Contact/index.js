@@ -10,21 +10,17 @@ const Contact = () => (
     <form id="contact-form">
       <div className="form-group">
         <label htmlFor="name">Name</label>
-        <input type="text" name="name" id="name" placeholder="Name" required />
+        <input type="text" name="name" id="name" placeholder="Name" />
       </div>
       <div className="form-group">
         <label htmlFor="email">Email</label>
-        <input
-          type="email"
-          name="email"
-          id="email"
-          placeholder="Email"
-          required
-        />
+        <input type="email" name="email" id="email" placeholder="Email" />
       </div>
       <label htmlFor="Message" />
       <textarea name="message" id="message" cols="30" rows="10" />
-      <button className="submit" type="submit" />
+      <button className="submit" type="submit">
+        Submit
+      </button>
     </form>
     <div id="success-section" style={{ display: 'none' }}>
       <h2 className="email-success"> Your Message Was Successfully Sent </h2>{' '}

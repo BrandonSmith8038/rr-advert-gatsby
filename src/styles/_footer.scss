@@ -1,0 +1,51 @@
+@import './variables.scss';
+@import './mixins.scss';
+
+footer {
+  align-items: center;
+  background: #333;
+  border-top: 7px solid $Primary-Brown;
+  color: white;
+  display: grid;
+  grid-template-areas: 'copy rr rr wtb dub';
+  justify-content: space-evenly;
+  margin-top: 100px;
+
+  @include media_medium {
+    padding: 0 20px;
+  }
+
+  @include media_sm {
+    display: block;
+  }
+  img {
+    max-width: 150px;
+
+    @include media_medium {
+      max-width: 100px;
+    }
+
+    @include media_sm {
+      display: block;
+      margin: 10px auto;
+      max-width: 250px;
+    }
+  }
+  .copy {
+    font-family: $Text;
+    grid-area: copy;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .rr {
+    grid-area: rr;
+    margin: 0 auto;
+  }
+  .wtb {
+    grid-area: wtb;
+  }
+  .dub {
+    grid-area: dub;
+    max-width: 150px;
+  }
+}

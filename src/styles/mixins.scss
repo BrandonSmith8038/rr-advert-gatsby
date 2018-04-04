@@ -1,0 +1,11 @@
+@mixin media_sm {
+  @media (max-width: 500px) {
+    @content;
+  }
+}
+
+@mixin media_medium {
+  @media (max-width: 900px) {
+    @content;
+  }
+}

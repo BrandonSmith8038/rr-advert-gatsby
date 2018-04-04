@@ -1,15 +1,16 @@
 import React from 'react'
 
+import RRLogo from '../../images/RR-Logo-New.png'
+
 export default () => {
   return (
     // Hero Section
     <section id="hero">
       <img
-        src="images/RR-Logo-New.png"
+        src={RRLogo}
         className="slide"
         alt="RoadRunner Restaurant and Saloon"
       />
-      <h1>Slide Show Goes Here</h1>
     </section>
   )
 }
