@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import RRLogo from './RR-Logo-New.png'
+import RRLogo from '../../images/RR-Logo-New.png'
 
 const Header = () => (
   <div>

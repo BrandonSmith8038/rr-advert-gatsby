@@ -1,8 +1,8 @@
 import React from 'react'
 
-import DUBLogo from './DUB.png'
-import RRLogo from './RR-Logo-New.png'
-import WTBLogo from './WhereTheyBuck.png'
+import DUBLogo from '../../images/DUB.png'
+import RRLogo from '../../images/RR-Logo-New.png'
+import WTBLogo from '../../images/WhereTheyBuck.png'
 
 const Footer = () => (
   <div>
