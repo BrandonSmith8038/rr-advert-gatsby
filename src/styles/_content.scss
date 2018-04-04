@@ -70,6 +70,7 @@
   }
   section#hero {
     grid-area: hero;
+    max-width: 100%;
 
     @include media_medium {
       margin-bottom: 20px;
