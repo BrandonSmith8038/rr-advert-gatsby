@@ -10,7 +10,7 @@ const Header = () => (
           className="header-logo"
           src="images/RR-Logo-New.png"
           alt="RoadRunner Logo"
-        />>
+        />
       </a>
       <h1>Advertise At The RoadRunner Restaurant &amp; Saloon</h1>
       {/* Nav */}

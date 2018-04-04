@@ -4,6 +4,7 @@ import Link from 'gatsby-link'
 import SectionCard from '../components/SectionCard'
 import Info from '../components/Info'
 import Contact from '../components/Contact'
+import SlideShow from '../components/SlideShow'
 
 import sections from '../Sections/sections'
 
@@ -24,7 +25,10 @@ const renderSections = () => {
 const IndexPage = () => (
   <div>
     <div className="wrapper">
-      <div className="top-section">{renderSections()}</div>
+      <div className="top-section">
+        <SlideShow />
+        {renderSections()}
+      </div>
       <Info />
       <Contact />
     </div>
