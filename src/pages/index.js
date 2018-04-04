@@ -5,6 +5,7 @@ import SectionCard from '../components/SectionCard'
 import Info from '../components/Info'
 import Contact from '../components/Contact'
 import SlideShow from '../components/SlideShow'
+import Modal from '../components/Modal'
 
 import sections from '../Sections/sections'
 
@@ -32,6 +33,7 @@ const IndexPage = () => (
       <Info />
       <Contact />
     </div>
+    <Modal />
   </div>
 )
 
