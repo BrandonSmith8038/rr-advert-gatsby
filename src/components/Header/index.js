@@ -1,16 +1,13 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import RRLogo from './img/RR-Logo-New.png'
 
 const Header = () => (
   <div>
     {/* Header */}
     <header>
       <a href="http://www.roadrunnerrestaurantandsaloon.com/" target="_blank">
-        <img
-          className="header-logo"
-          src="images/RR-Logo-New.png"
-          alt="RoadRunner Logo"
-        />
+        <img className="header-logo" src={RRLogo} alt="RoadRunner Logo" />
       </a>
       <h1>Advertise At The RoadRunner Restaurant &amp; Saloon</h1>
       {/* Nav */}
