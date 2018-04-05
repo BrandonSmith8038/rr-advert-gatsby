@@ -10,9 +10,12 @@
     "gatsby-plugin-react-helmet": "^2.0.8",
     "gatsby-plugin-sass": "^1.0.25",
     "react-helmet": "^5.2.0",
+    "react-modal": "^3.3.2",
     "react-slideshow-image": "^0.2.2"
   },
-  "keywords": ["gatsby"],
+  "keywords": [
+    "gatsby"
+  ],
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
